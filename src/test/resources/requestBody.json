@@ -1,0 +1,201 @@
+{
+  "segment": {
+    "type": "BUSINESS"
+  },
+  "country": "AE",
+  "brand": {
+    "name": [
+      {
+        "text": "brand name Test",
+        "lang": "en"
+      }
+    ],
+    "sector": [
+      "telecom",
+      "finance"
+    ],
+    "logo": "file_1232578800094298112",
+    "channel_services": [
+      {
+        "channel": "website",
+        "address": "https://www.website.company/"
+      },
+      {
+        "channel": "ios",
+        "address": "https://www.website.company/"
+      }
+    ],
+    "segment": {
+      "type": {
+        "code": "gov"
+      },
+      "team": {
+        "code": "small"
+      }
+    },
+    "operations": {
+      "sales": {
+        "period": "monthly",
+        "range": {
+          "from": 1,
+          "to": 100
+        },
+        "currency": "AED"
+      }
+    },
+    "terms": [
+      {
+        "term": "general",
+        "agree": true
+      }
+    ]
+  },
+  "users": [
+    {
+      "name": [
+        {
+          "first": "firstName",
+          "last": "lastName",
+          "middle": "middleName",
+          "title": "Mr.",
+          "lang": "en"
+        }
+      ],
+      "contact": {},
+      "identification": {
+        "number": "181112828282",
+        "type": "national_id",
+        "country": "AE",
+        "nationality": "AE"
+      },
+      "birth": {
+        "country": "AE",
+        "date": "1995-07-31"
+      },
+      "primary": true
+    }
+  ],
+  "entity": {
+    "legal_name": [
+      {
+        "text": "Testing Entity",
+        "lang": "en"
+      }
+    ],
+    "carries_a_license": true,
+    "license": {
+      "number": "1010000000",
+      "country": "AE",
+      "type": "LLC",
+      "documents": [
+        {
+          "name": "commercial_registration",
+          "number": "101000000",
+          "issuing_country": "AE",
+          "issuing_date": "2020-04-01",
+          "expiry_date": "2025-04-01",
+          "images": [
+            "file_1232578800094298112"
+          ]
+        }
+      ]
+    },
+    "tax": {
+      "number": "12435678912",
+      "issuing_date": "2023-01-20",
+      "expiry_date": "2025-01-20",
+      "documents": [
+        {
+          "type": "TAX Document",
+          "number": "12435678912",
+          "issuing_country": "AE",
+          "issuing_date": "2019-07-09",
+          "expiry_date": "2025-07-09",
+          "images": [
+            "file_1232578800094298112"
+          ]
+        }
+      ]
+    }
+  },
+  "wallet": {
+    "country": "AE",
+    "currency": "AED",
+    "name": [
+      {
+        "text": "name-en",
+        "lang": "en"
+      }
+    ],
+    "payout": {
+      "support": true,
+      "control": "legacy"
+    },
+    "linked_financial_account": {
+      "bank": {
+        "id": "",
+        "account": {
+          "name": "ABC",
+          "number": "77777777777",
+          "swift": "77777777777",
+          "iban": "AE0430000565608010759584"
+        },
+        "brand": {
+          "id": "",
+          "name": [
+            {
+              "text": "bank name",
+              "lang": "en"
+            }
+          ]
+        },
+        "documents": [
+          {
+            "type": "Bank Statement",
+            "number": "9876543221",
+            "issuing_country": "AE",
+            "issuing_date": "2019-07-09",
+            "images": [
+              "file_1232578800094298112"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "merchant": {
+    "marketplace": false,
+    "payment_provider": {
+      "technology": {
+        "id": "payment_technology_1TIK51231058YU8S195i116712"
+      },
+      "institution": {
+        "id": "payment_facilitator_qKTC422311465rI19rC11F437"
+      }
+    },
+    "development_house": {
+      "id": "development_house_JhGd1624534LNgd25OR0J618"
+    },
+    "platforms": [
+      {
+        "id": "commerce_platform_zRP3392478o5ZX2g43444",
+        "plugins": [
+          {
+            "id": "plugin_vKo72324727HN524LZ3i435"
+          }
+        ]
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "app_WYge1824942d67o2OJ0X13"
+    }
+  ],
+  "post": {
+    "url": "http://merchant.company/post_url"
+  },
+  "metadata": {
+    "mtd": "metadata"
+  }
+}
