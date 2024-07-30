@@ -12,17 +12,17 @@ public class BaseTest {
     protected static ExtentReports extent;
 
     @BeforeClass
-    public static void setup() {
+    protected static void setup() {
         extent = ExtentReporter.setupExtentReport();
         RestAssured.baseURI = "https://api.tap.company/v3/lead";
     }
 
     @AfterSuite
-    public void tearDownReport() {
+    protected void tearDownReport() {
         extent.flush();
     }
 
-    public static RequestSpecification getRequestSpecification() {
+    protected static RequestSpecification getRequestSpecification() {
         return RestAssured
                 .given()
                 .header("Content-Type", "application/json")
